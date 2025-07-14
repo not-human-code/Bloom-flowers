@@ -1,0 +1,71 @@
+.btnn:hover{
+    background:cyan;
+}
+
+.section1 .box-containerr{
+    display:flex;
+    gap:2rem;
+    flex-wrap:wrap;
+    width: auto;
+    height: auto;
+}
+
+.section1 .box-containerr .boxx{
+    text-align: center;
+    border:2px solid black;
+    border-radius: 1rem;
+    padding:2rem;
+}
+
+section{
+    padding:2rem 7%;
+}
+
+.flwname{
+    font-family: Monotype corsiva;
+    color: magenta;
+    font-size:2rem;
+    text-decoration: underline;
+}
+
+.pricee{
+    font-family: cursive;
+    color: magenta;
+    font-size:1.5rem;
+}
+
+.boxx{
+    width:155px;
+    height:200px
+}
+
+.yhheading{
+    text-align: center;
+    color:black;
+    text-transform:uppercase;
+    padding-bottom:3.5rem;
+    font-size:3rem;
+}
+
+.yhheading span{
+    color: magenta;
+    text-transform: uppercase;
+}
+
+        /* a::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 4px;
+            background-color: cyan;
+            left: 0px;
+            bottom: 645px;
+            transform-origin: bottom-right;
+            transition: transform 0.2s linear;
+            transform: scaleX(0);
+        }
+
+a:hover:after {
+        transform-origin: bottom-right;
+        transform: scaleX(0.1);
+} */
