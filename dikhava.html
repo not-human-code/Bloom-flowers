@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallery</title>
+    <link rel="icon" href="rose.png" type="image/x-icon">
+    <link rel="stylesheet" href="bloomcss.css">
+    <style>
+
+        h3{
+            color:magenta;
+        }
+
+        a{
+            text-decoration: none;
+            color: azure;
+            font-size: 20px;
+        }
+
+        .btnn{
+            margin-top:2rem;
+            display:inline-block;
+            padding:0.9rem 3rem;
+            font-size:1rem;
+            color:azure;
+            background:magenta;
+            cursor:pointer;
+            border-radius:5rem;
+        }
+
+        #d1 a{
+            padding:40px;
+        }
+
+        #d1{
+            display: flex;
+            justify-content:center;
+            color:magenta;
+        }
+
+        #d1 a:hover{
+            color:cyan;
+        }
+
+        #i1 {
+            height:300px;
+            width:310px;
+            border:5px solid black;
+            border-radius:5px;
+        }
+
+        #i2 {
+            height:300px;
+            width:310px;
+            border:5px solid black;
+            border-radius:5px;
+        }
+
+        #i3 {
+            height:300px;
+            width:310px;
+            border:5px solid black;
+            border-radius:5px;
+        }
+
+        #i4 {
+            height:300px;
+            width:310px;
+            border:5px solid black;
+            border-radius:5px;
+        }
+
+        #i5 {
+            height:300px;
+            width:310px;
+            border:5px solid black;
+            border-radius:5px;
+        }
+
+        #i6 {
+            height:300px;
+            width:310px;
+            border:5px solid black;
+            border-radius:5px;
+        }
+
+        #i7 {
+            height:275px;
+            width:310px;
+            border:5px solid black;
+            border-radius:5px;
+        }
+
+        #i8 {
+            height:275px;
+            width:310px;
+            border:5px solid black;
+            border-radius:5px;
+        }
+
+        #i9 {
+            height:275px;
+            width:310px;
+            border:5px solid black;
+            border-radius:5px;
+        }
+
+        #i11 {
+            height:250px;
+            width:310px;
+            border:5px solid black;
+            border-radius:5px;
+        }
+
+        .gallery{
+            display:flex;
+            flex-wrap:wrap;
+            align-items:stretch;
+        }
+
+        .gallery-item{
+            margin: 1px;
+            border:1px solid black;
+            animation:scale 3s infinite linear;
+        }
+
+        @keyframes scale{
+            0%,100%{height:0px;background-color: magenta;box-shadow: 8px 8px 20px 30px blueviolet;}
+            55%{height:600px;background-color:blue;box-shadow: 8px 8px 20px 30px cyan;}
+            85%{height:1200px;background-color: blueviolet;box-shadow: 8px 8px 20px 30px magenta;}
+        }
+
+
+    </style>
+</head>
+<body>
+    <body background="section1banner.jpg">
+    <div id="d1" style="width:100%; height:90px; background-color: magenta;">
+        <a href="index.html">HOME</a>
+        <a href="flowerkeoptions.html">FLOWERS</a>
+        <a href="bloomus.html">ABOUT</a>
+        <h1 style="color: azure">BLOOM</h1>
+        <a href="dikhava.html">GALLERY</a>
+        <a href="suspectedspam.html">CONTACT</a>
+        <a href="makeflowerswork.html">WORKSHOP</a>
+    </div>
+    <br>
+    <h1 class="yhheading">Our<span>&nbsp;&nbsp;&nbsp;&nbsp;Gallery</span></h1>
+    <br><br>
+    <section id="gallery" class="gallery">
+        <section id="gallery-item" class="gallery-item" style="display:flex;flex-wrap: wrap; gap:1rem;">
+            <img id="i1" src="opopo-removebg-preview.png" alt="Rose">
+            <img id="i2" src="dumm-removebg-preview.png" alt="daffodil">
+            <img id="i3" src="lol-removebg-preview.png" alt="Lavender">
+            <img id="i4" src="ppyplaytime-removebg-preview.png" alt="corn poppy">
+            <img id="i5" src="about-2-300x248.jpg" alt="Flower">
+            <img id="i6" src="gallery-1-200x261.jpg" alt="Flower">
+            <img id="i7" src="about-3-300x248 (1).jpg" alt="Flower">
+            <img id="i8" src="about-1-300x530.jpg" alt="Flower">
+            <img id="i9" src="gallery-2-200x227.jpg" alt="Flower">
+            <img id="i11" src="post-3-900x600.jpg" alt="Flower">
+        </section>
+    </section>
+</body>
+</html>
